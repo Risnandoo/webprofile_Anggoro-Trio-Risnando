@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/44e16f2505.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+    <title>Profile Anggoro Trio Risnando</title>
+  </head>
+  <body class="career-page">
+    <header>
+      <div id="myNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()"
+          >&times;</a
+        >
+        <a href="index.html">Profile</a>
+        <a href="career.html">Career</a>
+        <a href="project.html">Project</a>
+        <button id="download-cv-button" onclick="downloadCV()">
+          <i class="fas fa-download"></i>Download CV
+        </button>
+      </div>
+      <span style="font-size: 30px; cursor: pointer" onclick="toggleNav()">
+        &#9776;
+      </span>
+      <h1 class="title-page">Career</h1>
+      <span
+        class="dark-mode-toggle"
+        style="cursor: pointer"
+        onclick="toggleDarkMode()"
+      >
+        <i id="mode-icon" class="fas fa-moon"></i>
+      </span>
+    </header>
+    <main class="my-career">
+      <div class="folder" onclick="toggleDescription('folder1')">About Me</div>
+      <div class="description" id="folder1Description">
+        <p>Name: Anggoro Trio Risnando</p>
+        <p>Age: 22</p>
+        <p></p>
+        <p>Hobby: Playing Games, Listening Music, Watch Anime or Movie</p>
+        <p>
+          Skills: HTML, CSS, JS, PHP, Dart, Basic Kotlin, SQL, Java, Basic
+          Python
+        </p>
+        <p>
+          I am an undergraduate student at the University of Muhammadiyah
+          Malang, majoring in Computer Science. I am currently in my seventh
+          semester. Throughout my academic journey, I have successfully
+          completed several course projects. For instance, I developed a blood
+          donation website with a comprehensive online form integrated with an
+          SQL database and PHP. Additionally, I created a prototype for a Nike
+          store using the Dart programming language. I also made contributions
+          to a software project management endeavor, where I served as a planner
+          and designed a rented room management system.
+        </p>
+      </div>
+
+      <div class="folder" onclick="toggleDescription('folder2')">Project 1</div>
+      <div class="description" id="folder2Description">
+        <p>Not added yet</p>
+      </div>
+      <div class="folder" onclick="toggleDescription('folder3')">Project 2</div>
+      <div class="description" id="folder3Description">
+        <p>Not added yet</p>
+      </div>
+      <div class="folder" onclick="toggleDescription('folder4')">Project 3</div>
+      <div class="description" id="folder4Description">
+        <p>Not added yet</p>
+      </div>
+    </main>
+  </body>
+</html>

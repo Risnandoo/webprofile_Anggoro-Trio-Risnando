@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/44e16f2505.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Profile Anggoro Trio Risnando</title>
+  </head>
+  <body>
+    <header>
+      <div id="myNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()"
+          >&times;</a
+        >
+        <a href="index.html">Profile</a>
+        <a href="career.html">Career</a>
+        <a href="project.html">Project</a>
+        <button id="download-cv-button" onclick="downloadCV()">
+          <i class="fas fa-download"></i>Download CV
+        </button>
+      </div>
+      <span style="font-size: 30px; cursor: pointer" onclick="toggleNav()">
+        &#9776;
+      </span>
+      <h1 class="title-page">Profile</h1>
+      <span class="dark-mode-toggle" style="cursor: pointer;" onclick="toggleDarkMode()">
+        <i id="mode-icon" class="fas fa-moon"></i>
+      </span>
+    </header>
+    <section class="home">
+      <div class="content-profile">
+        <img class="photo-profile" src="img/profile.jpeg" alt="Profile Image" />
+        <div class="profile-info">
+          <p>Hi!! :)</p>
+          <p>My name Anggoro Trio Risnando</p>
+          <p>Welcome to my profile</p>
+          <p>
+            I'm a Web Developer and Experience in building website
+          </p>
+          <p>web html, css, js, php.</p>
+          <p>
+            I'm Interest to learn about framework laravel or react.js.
+          </p>
+          <p>Also experience in UI/UX using figma.</p>
+          <p>See my career to know more about me.</p>
+        </div>
+        <ul class="skills">
+          <li><i class="fab fa-html5"></i></li>
+          <li><i class="fab fa-css3-alt"></i></li>
+          <li><i class="fab fa-js"></i></li>
+          <li><i class="fab fa-php"></i></li>
+          <li><i class="fab fa-figma"></i></li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=atrisnando7@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100006671599184">
+          <i class="fab fa-facebook"></i>
+        </a>
+
+        <a href="https://www.instagram.com/risnandoo.7">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/anggoro-trio-risnando/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+      </div>
+    </footer>
+  </body>
+</html>
